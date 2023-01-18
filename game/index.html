@@ -5,56 +5,60 @@
     <style>
       /* Add the class and background-color for each class */
       .death-knight {
-        color: #C41F3B;
-        background-color: #F9D9D9;
-      }
-      .druid {
-        color: #FF7D0A;
-        background-color: #FFF2D9;
-      }
-      .hunter {
-        color: #ABD473;
-        background-color: #E9F9D9;
-      }
-      .mage {
-        color: #69CCF0;
-        background-color: #D9F2F9;
-      }
-      .monk {
-        color: #00FF96;
-        background-color: #D9F9E9;
-      }
-      .paladin {
-        color: #F58CBA;
-        background-color: #F9D9F2;
-      }
-      .priest {
-        color: #FFFFFF;
-        background-color: #F9F9F9;
-      }
-      .rogue {
-        color: #FFF569;
-        background-color: #F9F2D9;
-      }
-      .shaman {
-        color: #0070DE;
-        background-color: #D9E9F9;
-      }
-      .warlock {
-        color: #9482C9;
-        background-color: #E9D9F9;
-      }
-      .warrior {
-        color: #C79C6E;
-        background-color: #F2D9F9;
-      }
-      .evoker {
-        color: #33937F;
-        background-color: #D9F9E9;
-      }
-      .demon-hunter {
-color: #A330C9;
-background-color: #E9D9F9;
+color: #F9D9D9; /* opposite of background-color */
+background-color: #C41F3B;
+}
+.druid {
+color: white; /* opposite of background-color */
+background-color: #FF7D0A;
+}
+.hunter {
+color: white; /* opposite of background-color */
+background-color: #ABD473;
+}
+.mage {
+color: white; /* opposite of background-color */
+background-color: #69CCF0;
+}
+.monk {
+color: white; /* opposite of background-color */
+background-color: #00FF96;
+}
+.paladin {
+color: white; /* opposite of background-color */
+background-color: #F58CBA;
+}
+.priest {
+color: white; /* opposite of background-color */
+background-color: #FFFFFF;
+}
+.rogue {
+color: white; /* opposite of background-color */
+background-color: #FFF569;
+}
+.shaman {
+color: white; /* opposite of background-color */
+background-color: #0070DE;
+}
+.warlock {
+color: white; /* opposite of background-color */
+background-color: #9482C9;
+}
+.warrior {
+color: white; /* opposite of background-color */
+background-color: #C79C6E;
+}
+.evoker {
+color: white; /* opposite of background-color */
+background-color: #33937F;
+}
+.demon-hunter {
+color: white; /* opposite of background-color */
+background-color: #A330C9;
+}
+.character-name {
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
       body {
     background-image: url('Portrait_Of_A_Baboon.jpg'); /* specify the path of your image here */
@@ -71,12 +75,20 @@ h1 {
     color: white;
 }
 a {
-  color: black; /* specify the color you want */
+  color: white; /* specify the color you want */
   text-decoration: none;
 }
 .rank {
-  color: black; /* specify the color you want */
+  color: white; /* specify the color you want */
   text-decoration: none;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.DPS {
+  color: white; /* specify the color you want */
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
     </style>
     <title>Rankings</title>
@@ -94,19 +106,19 @@ a {
         </thead>
         <tbody>
           <tr class="demon-hunter">
-            <td>Fenchurches</td>
+            <td class="character-name">Fenchurches</td>
             <td class="rank">#1</td>
-            <td><a href='https://www.raidbots.com/simbot/report/wps65RQy5iAXjYzcH4qT7p' target="_blank">79,552 DPS</a></td>
+            <td class="DPS"><a href='https://www.raidbots.com/simbot/report/pD1kDco65GNcSbZCyY39Ee' target="_blank">79,552 DPS</a></td>
           </tr>
           <tr class="shaman">
-            <td>Kagamii</td>
+            <td class="character-name">Kagamii</td>
             <td class="rank">#2</td>
-            <td><a href='https://www.raidbots.com/simbot/report/wps65RQy5iAXjYzcH4qT7p' target="_blank">78,537 DPS</a></td>
+            <td class="DPS"><a href='https://www.raidbots.com/simbot/report/wps65RQy5iAXjYzcH4qT7p' target="_blank">78,537 DPS</a></td>
           </tr>
           <tr class="mage">
-            <td>Kyuji</td>
+            <td class="character-name">Kyuji</td>
             <td class="rank">#3</td>
-            <td><a href='https://www.raidbots.com/simbot/report/wps65RQy5iAXjYzcH4qT7p' target="_blank">78,098 DPS</a></td>
+            <td class="DPS"><a href='https://www.raidbots.com/simbot/report/nBFM3asSjaiMwF2YRMCoQS' target="_blank">78,098 DPS</a></td>
           </tr>
         </tbody>
       </table>
